@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- A doctype tells the browser what version of HTML the page is written in -->
+<!-- If you forget to include this line of code in your file, 
+  then some of the HTML 5 tags like <article>, < footer >, and <header>  
+  may not be supported by the browser. -->
+<html lang="en">
+<!-- The <html> tag is the top level element of the HTML file. 
+  You will nest the <head> and <body> tags inside of it. -->
+<!-- The lang attribute inside the opening <html> tag sets the language for the page. 
+  It is also good to include it for accessibility reasons, because screen readers will 
+  know how to properly pronounce the text. -->
+
+<head>
+    <!-- The <head> tags contain information that is processed by machines. 
+  Inside the <head> tags, you will nest metadata which is data that describes 
+  the document to the machine. -->
+    <meta charset="utf-8" />
+    <!-- UTF-8 is the standard character encoding you should use in your web pages. 
+      This will usually be the first <meta> tag shown in the <head> element -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- This tag renders the width of the page to the width of the device's screen size. 
+      If you have a mobile device that is 600px wide, then the browser window will 
+      also be 600px wide. -->
+    <!-- The initial-scale controls the zoom level. The value of 1 for the initial-scale 
+      prevents the default zoom by browsers -->
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>React App</title>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
